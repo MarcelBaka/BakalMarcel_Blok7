@@ -62,3 +62,5 @@ while (bohater_zdrowie > 0 and bohater2_zdrowie > 0) or (bohater3_zdrowie > 0 an
         print("  ", opis(bohater5_imie, bohater5_zdrowie, bohater5_atak))
         print("  ", opis(bohater6_imie, bohater6_zdrowie, bohater6_atak))
     runda = runda + 1
+if runda > 6:
+    print("Koniec turnieju!")
